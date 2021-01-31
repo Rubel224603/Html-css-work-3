@@ -1,0 +1,94 @@
+*{
+	margin:0px; padding:0px;
+}.me{
+	width: 900px;
+	margin:30px auto;
+	background:#213450;
+	padding: 20px;
+}
+.me h2{
+		text-align:center;
+}.me h2:after{
+	content:" Rubel Hosen";
+	color:red;
+	font-family:verdana;
+	font-size: 40px;
+}
+.me h1{
+	color:green;
+	font-size: 40px;
+	text-align:center;
+	
+}
+.me h1:before{
+	content:"Want To Be a Web Developer ";
+	color: gray;
+	
+}
+.me1{
+	width: 900px;
+	margin:30px auto;
+	background:#203450;
+	padding: 20px;
+}.me1:hover{
+	background:red;padding: 20px;
+}
+.me1 h3{
+	color:000;
+	font-size: 30px;
+	text-align:center;
+	box-sizing:border-box;
+	
+}.me1 h3:hover{
+	color:white;
+	font-size: 30px;
+	text-align:center;
+}
+#myform{
+	width: 900px;
+	margin:30px auto;
+	background:#565555;
+	padding: 20px;
+}#myform h1{
+	text-align:center;
+}.fcas{
+	width: 700px;height: 30px;
+	
+}
+.fcas:focus{
+	border:5px solid red;
+}
+.sub{margin-left: 40px;
+height: 30px;
+width: 100px;}
+#list{width: 900px;
+	margin:30px auto;
+	background:#0c0a0a;
+	padding: 20px;
+	text-align:center;
+	font-size: 23px;
+	
+	
+}#list ul {
+	list-style:none;
+	
+}
+#list ul li a{
+	color: #000;
+	background: #FFF;
+	display:inline-block;
+	padding: 10px 60px;
+	margin: 5px 0px;
+	text-decoration:none;
+}#list ul li a:hover{
+	background:orange;
+}
+#list ul li a:active{
+	background:red;
+	color:white;
+}
+#list ul li a:focus{
+	background:navy;
+}#list ul li a:visited{
+	background:brown;
+}
